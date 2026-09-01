@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140067
+timestamp: 2026-09-01T08:03:15Z
+hostname: ubuntu
+---[user: getent passwd]---
+hiro524:x:1001:1001::/home/hiro524:/bin/sh
+---[group: getent group]---
+dba:x:1001:
+---[user-in-group: id]---
+uid=1001(hiro524) gid=1001(dba) groups=1001(dba)
+---[file stat: home file mode/owner]---
+/home/hiro524/report_5463.txt mode=644 owner=hiro524 group=dba
+---[sshd effective config]---
+port 2271
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 6d1d127c9de9e23258629a49e03d0e003e9f7abee5ce85521958a93885fa7d3c
+===END LAB1 SUBMISSION===
